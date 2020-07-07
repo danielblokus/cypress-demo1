@@ -1,0 +1,17 @@
+{
+  "name": "cypress-demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "test": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.9.0"
+  }
+}
