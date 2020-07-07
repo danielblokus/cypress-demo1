@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 export function assertUrlIsCorrect() {
-    cy.url().should('include', '/index.php?route=product/product*&search='+name)
+    cy.url().should('include', '/product&product_id=40&search='+name)
 }
 
 export function assertThumbnailIsVisible() {
