@@ -2,10 +2,11 @@
   "name": "cypress-demo1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "cypress:chrome": "cypress run --headless --browser chrome",
+    "cypress:firefox": "cypress run --headless --browser firefox"
   },
   "keywords": [],
   "author": "",
