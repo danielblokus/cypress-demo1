@@ -1,0 +1,28 @@
+{
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        }
+    ],
+    "run_settings": {
+        "cypress_config_file": "cypress.json",
+        "project_name": "cypress-demo1",
+        "build_name": "build-name",
+        "exclude": [],
+        "parallels": "1",
+        "npm_dependencies": {
+            "typescript": "^4.0.3"
+        },
+        "package_config_options": {}
+    },
+    "connection_settings": {
+        "local": false,
+        "local_identifier": null
+    },
+    "disable_usage_reporting": false
+}
