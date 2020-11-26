@@ -2,7 +2,7 @@ import { HomePage } from "../page-objects/home";
 import { ListingPage } from "../page-objects/listing";
 import { ProductPage } from "../page-objects/product";
 
-it('Should display info about product', () => {
+it('Should display info about a product', () => {
     const productName = 'iPhone'
     const homePage = new HomePage();
     homePage.navigateToHomePage();
