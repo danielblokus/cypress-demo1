@@ -15,3 +15,14 @@ it('Should display info about a product', () => {
     productPage.assertMainThumbnailIsVisible();
     productPage.assertProductPriceIsVisible();
 });
+
+it('Playing with Cypress Studio', () => {
+    /* ==== Generated with Cypress Studio ==== */
+    cy.visit('https://demo.opencart.com/');
+    cy.get('.nav > :nth-child(1) > .dropdown-toggle').click();
+    cy.get('.open > .dropdown-menu > .see-all').click();
+    cy.get('.list-group > [href="https://demo.opencart.com/index.php?route=product/category&path=20_27"]').click();
+    cy.get('.breadcrumb > :nth-child(2) > a').click();
+    cy.get('.breadcrumb > :nth-child(1) > a > .fa').click();
+    /* ==== End Cypress Studio ==== */
+});
