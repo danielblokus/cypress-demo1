@@ -10,11 +10,17 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v2
 
-      - name: Cypress run
+      - name: Cypress run on headless Chrome
         uses: cypress-io/github-action@v2
         with:
           browser: chrome
+          headless: true
+      - name: Cypress run on headless Firefox
+        uses: cypress-io/github-action@v2
+        with:
+          browser: firefox
+          headless: true
