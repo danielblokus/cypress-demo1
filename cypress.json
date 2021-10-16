@@ -1,4 +1,6 @@
 {
-    "watchForFileChanges": false,
-    "experimentalStudio": true
+    "watchForFileChanges": true,
+    "experimentalStudio": true,
+    "video": false,
+    "defaultCommandTimeout": 9000
 }
